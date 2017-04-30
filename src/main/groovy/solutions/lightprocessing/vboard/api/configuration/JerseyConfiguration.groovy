@@ -8,5 +8,7 @@ import solutions.lightprocessing.vboard.api.ResortController
 class JerseyConfiguration extends ResourceConfig {
     JerseyConfiguration() {
         register(ResortController.class)
+
+        register(ExceptionHandler.class)
     }
 }
