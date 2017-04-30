@@ -5,7 +5,7 @@
 ### Run with Gradle (wrapper)
 <pre>gradlew clean bootRun
         -PdbUrl=DATABASE_URL
-        -PdbUsername=DATABASE_USER
+        -PdbUser=DATABASE_USER
         -PdbPassword=DATABASE_PASSWORD</pre>
 
 ## Migration
