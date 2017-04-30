@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType
 @Path('api/resorts')
 class ResortController {
     @GET
-    @Path("/")
+    @Path('/')
     @Produces(MediaType.APPLICATION_JSON)
     ServiceResponse getAll() {
         [ 'all resorts' ]
